@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+    <base href="$FLUTTER_BASE_HREF" />
+
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="A new Flutter project." />
+    <meta
+      name="google-signin-client_id"
+      content="1051406931634-5lfpatvr4nqk1m5jfike6jc79et0aodf.apps.googleusercontent.com"
+    />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="save_password_project_1" />
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <title>save_password_project_1</title>
+    <link rel="manifest" href="manifest.json" />
+
+    <script>
+      // The value below is injected by flutter build, do not touch.
+      var serviceWorkerVersion = null;
+    </script>
+    <!-- This script adds the flutter initialization JS code -->
+    <script src="flutter.js" defer></script>
+  </head>
+  <body>
+    <html>
+      ...
+      <body>
+        <html>
+          ...
+          <body>
+            <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js"></script>
+
+            <!-- Firebase Configuration -->
+            <script>
+              const firebaseConfig = {
+                apiKey: "AIzaSyDzDfgJTTBgRIgauZ6p8Mr_172HYqo8hS8",
+                authDomain: "savepasswordproject.firebaseapp.com",
+                databaseURL:
+                  "https://savepasswordproject-default-rtdb.europe-west1.firebasedatabase.app",
+                projectId: "savepasswordproject",
+                storageBucket: "savepasswordproject.appspot.com",
+                messagingSenderId: "1082414089886",
+                appId: "1:1082414089886:web:5fa7cc2e272196df7bdd8f",
+                measurementId: "G-9CVXTMVK1M",
+              };
+
+              // Initialize Firebase
+              firebase.initializeApp(firebaseConfig);
+            </script>
+          </body>
+        </html>
+
+        <script src="main.dart.js" type="application/javascript"></script>
+      </body>
+    </html>
+    <script>
+      window.addEventListener("load", function (ev) {
+        // Download main.dart.js
+        _flutter.loader.loadEntrypoint({
+          serviceWorker: {
+            serviceWorkerVersion: serviceWorkerVersion,
+          },
+          onEntrypointLoaded: function (engineInitializer) {
+            engineInitializer.initializeEngine().then(function (appRunner) {
+              appRunner.runApp();
+            });
+          },
+        });
+      });
+    </script>
+  </body>
+</html>

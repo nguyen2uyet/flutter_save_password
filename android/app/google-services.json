@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1082414089886",
+    "firebase_url": "https://savepasswordproject-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "savepasswordproject",
+    "storage_bucket": "savepasswordproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082414089886:android:1568c4e7a2e011f97bdd8f",
+        "android_client_info": {
+          "package_name": "com.example.save_password_project_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082414089886-7qu0qo44e45ir5gu0m87oc287tplqnh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7iWN-sMch1wbT52fjjsETkgd3fRuwKSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082414089886-7qu0qo44e45ir5gu0m87oc287tplqnh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
